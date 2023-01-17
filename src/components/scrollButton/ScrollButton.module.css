@@ -1,0 +1,19 @@
+.scrollContainer {
+	width: 100%;
+	position: absolute;
+	bottom: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+.scrollIcon {
+	display: block;
+	margin: -17px 0;
+	font-size: 40px;
+	color: #777;
+}
+
+.active {
+	color: #99eeff;
+	filter: drop-shadow(0 0 6px #fff);
+}

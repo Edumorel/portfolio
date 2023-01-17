@@ -1,0 +1,53 @@
+.container {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+
+.container.visible {
+	opacity: 1;
+}
+
+.imageContainer {
+	position: absolute;
+	height: 100%;
+	cursor: pointer;
+	transition: height 0.3s;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.imageContainer:hover {
+	height: 115%;
+}
+
+.image {
+	height: 100%;
+	transition: filter 0.3s;
+}
+
+.image.active {
+	filter: drop-shadow(0 0 16px rgba(255, 255, 255, 0.7));
+}
+
+.skillName {
+	background-color: #aaa;
+	padding: 5px 20px;
+	border-radius: 7px;
+	position: absolute;
+	top: -10px;
+	opacity: 0;
+	transition-property: opacity, top;
+	transition-duration: 0.3s, 0.3s;
+	z-index: 3000;
+	color: #000;
+}
+
+.imageContainer:hover .skillName {
+	opacity: 1;
+	top: -40px;
+}

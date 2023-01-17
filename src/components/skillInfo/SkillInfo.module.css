@@ -1,0 +1,29 @@
+.container {
+	opacity: 0;
+	position: relative;
+	left: 100px;
+	transition-property: left, opacity;
+	transition-duration: 0.3s, 0.3s;
+	transition-delay: 0.3s;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.container.visible {
+	opacity: 1;
+	left: 0;
+}
+
+.title {
+	font-size: 35px;
+	text-align: center;
+	text-shadow: 2px 2px 0px #000;
+}
+
+.description {
+	width: 90%;
+	text-align: center;
+	font-size: 18px;
+	padding: 40px 0 0 0;
+}

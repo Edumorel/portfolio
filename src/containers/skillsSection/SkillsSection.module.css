@@ -1,0 +1,14 @@
+.content {
+	display: grid;
+	grid-template-rows: 20% 80%;
+	align-items: center;
+}
+
+.header {
+	height: 100%;
+}
+
+.skills {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
