@@ -1,7 +1,7 @@
 .scrollContainer {
 	width: 100%;
 	position: absolute;
-	bottom: 50px;
+	bottom: 60px;
 	display: flex;
 	justify-content: center;
 }

@@ -2,14 +2,14 @@ export const skillsData = [
 	{
 		name: 'HTML',
 		image: 'HTML.png',
-		description: `En mi opinión de las más necesarias a la hora de crear páginas web. Gracias a saberla puedo hacer que mis webs tengan una estructura y un SEO correcto para su posicionamiento.`,
+		description: `Gracias a saber HTML puedo hacer que mis webs tengan una estructura y un SEO correcto para su posicionamiento.`,
 		color: '#FF5800',
 	},
 	{
 		name: 'CSS',
 		image: 'css.png',
 		description: `
-		Me gusta que mis proyectos tengan mi propio estilo, y para ello lo mejor es CSS, permitiéndome darle forma a los elementos que añada y poder crear efectos visuales increíbles para los usuarios.
+		Me gusta que mis proyectos tengan mi propio estilo, y css me ayuda con eso, permitiéndome darle estilo a los elementos que añada y poder crear efectos visuales increíbles para los usuarios.
 		`,
 		color: '#2965F1',
 	},
