@@ -9,13 +9,29 @@
 }
 
 .title {
-	font-size: 30px;
+	font-size: 35px;
 	padding: 0 0 40px 0;
 }
 
 .socialLink {
-	font-size: 28px;
+	font-size: 32px;
 	margin: 0 10px;
 	cursor: pointer;
 	color: #fff;
+}
+
+.socialLink:hover {
+	color: #6b6b6b;
+}
+
+.insta:hover {
+	fill: url(#insta);
+}
+
+.github:hover {
+	color: #e44d31;
+}
+
+.linkedin:hover {
+	color: #0c60b8;
 }

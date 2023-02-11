@@ -22,26 +22,26 @@ export const skillsData = [
 	{
 		name: 'React',
 		image: 'react.png',
-		description: `Gracias a React he podido entender JavaScript y el mundo del desarrollo web de forma distinta, que me ha ayudado a mejorar en otros aspectos de mi carrera. Sin duda mi librería de JavaScript favorita.`,
+		description: `Gracias a React he podido entender JavaScript y el mundo del desarrollo web de forma distinta, lo que me ha ayudado a mejorar en otros aspectos de mi carrera. Sin duda mi librería de JavaScript favorita.`,
 		color: '#61DAFB',
 	},
 	{
 		name: 'NodeJS',
 		image: 'node.png',
-		description: `Si quieres crear aplicaciones el backend es una parte importante y como me gusta tanto JavaScript Node es mi herramienta para hacerlo. Gracias a él puedo crear servidores que complementen mis aplicaciones con inicios de sesión, APIs, bases de datos y un sinfín de cosas.`,
+		description: `Si quieres crear aplicaciones el backend es una parte importante, y como me gusta tanto JavaScript Node es mi herramienta para hacerlo. Gracias a él puedo crear servidores que complementen mis aplicaciones con inicios de sesión, APIs, bases de datos y un sinfín de cosas.`,
 		color: '#539E43',
 	},
 	{
 		name: 'Git',
 		image: 'git.png',
-		description: `Como programador he tenido la oportunidad de trabajar con otros desarrolladores en el mismo proyecto, y git lo ha hecho mucho más fácil. 
+		description: `He tenido la oportunidad de trabajar con otros desarrolladores en el mismo proyecto, y git lo ha hecho mucho más fácil. 
 		Además de permitirme de forma sencilla guardar el progreso de mi app y subirlo a algún servidor.`,
 		color: '#F05033',
 	},
 	{
 		name: 'Next.js',
 		image: 'nextjs.png',
-		description: `React me parece una tecnología increíble, pero con Next podemos llevarlo a otro nivel que solucione sus principales problemas. Next se ha convertido en mi framework principal, ya que me permite crear aplicaciones con React, pero con las ventajas que me da el Server Side Render.`,
+		description: `React me parece una tecnología increíble, pero con Next podemos llevarlo a otro nivel que solucione sus principales problemas. Next se ha convertido en mi framework principal, ya que me permite crear aplicaciones con React, pero con las ventajas que da el Server Side Render.`,
 		color: '#fff',
 	},
 	{

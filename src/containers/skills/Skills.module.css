@@ -1,3 +1,14 @@
 .container {
+	display: flex;
+	justify-content: center;
+}
+
+.content {
 	position: relative;
+}
+
+@media screen and (min-width: 1000px) {
+	.container {
+		justify-content: flex-start;
+	}
 }

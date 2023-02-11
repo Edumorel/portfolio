@@ -10,8 +10,9 @@ const Skills = ({ skills = [], selected, setSelected }) => {
 	const [skillWidth, setSkillWidth] = useState()
 
 	const resize = () => {
-		const windowWidth = innerWidth * 0.9
-		const newWidth = windowWidth < 500 ? windowWidth : 500
+		const maxWidth = innerWidth > 1000 ? 490 : 400
+		const windowWidth = innerWidth * 0.8
+		const newWidth = windowWidth < maxWidth ? windowWidth : maxWidth
 		setWidth(newWidth)
 
 		const newSkillWidth = newWidth / (skillsLength / 2 + 1)
@@ -24,23 +25,25 @@ const Skills = ({ skills = [], selected, setSelected }) => {
 	}, [])
 
 	return (
-		<div
-			className={styles.container}
-			ref={circle}
-			style={{ width: width, height: width }}
-		>
-			{skills.map((item, i) => (
-				<SkillButton
-					skill={item}
-					key={item.name}
-					index={i}
-					diameter={width}
-					width={skillWidth}
-					size={skillsLength}
-					selected={selected == i}
-					setSelected={setSelected}
-				/>
-			))}
+		<div className={styles.container}>
+			<div
+				className={styles.content}
+				ref={circle}
+				style={{ width: width, height: width }}
+			>
+				{skills.map((item, i) => (
+					<SkillButton
+						skill={item}
+						key={item.name}
+						index={i}
+						diameter={width}
+						width={skillWidth}
+						size={skillsLength}
+						selected={selected == i}
+						setSelected={setSelected}
+					/>
+				))}
+			</div>
 		</div>
 	)
 }

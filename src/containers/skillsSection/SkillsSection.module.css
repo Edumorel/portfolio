@@ -10,5 +10,14 @@
 
 .skills {
 	display: grid;
-	grid-template-columns: 50% 50%;
+	grid-template-columns: 100%;
+	grid-template-rows: 1fr 60%;
+	gap: 80px;
+}
+
+@media screen and (min-width: 1000px) {
+	.skills {
+		grid-template-columns: 50% 50%;
+		grid-template-rows: 1fr;
+	}
 }
