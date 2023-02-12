@@ -13,7 +13,8 @@ html {
 
 body {
 	/* background: linear-gradient(45deg, rgb(14, 14, 14) 30%, rgb(33, 33, 33)); */
-	background-image: url('../public/background.jpg');
+	/* background-image: url('../public/background.jpg'); */
+	background: none;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
