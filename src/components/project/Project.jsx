@@ -1,22 +1,25 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { useEffect, useRef } from 'react'
+import useShowElement from '../../hooks/useShowElement'
 import styles from './Project.module.css'
 
-const Project = ({ project }) => {
+const Project = ({ project, delay }) => {
 	const containerStyle = {}
 	const ref = useRef(null)
+	const shown = useShowElement(ref)
 
 	useEffect(() => {
-		ref.current.style.setProperty('--colorShadow', project.color)
-	}, [])
+		const elementStyle = ref.current.style
+		elementStyle.setProperty('--colorShadow', project.color)
+		elementStyle.setProperty('--delay', delay * 0.1 + 's')
+	}, [delay, project.color])
 
 	const { techImage } = styles
 
 	return (
-		<Link
-			href={`/projects/${project.url}`}
-			className={styles.container}
+		<figure
+			className={`${styles.container} ${shown && styles.visible}`}
 			style={containerStyle}
 			ref={ref}
 		>
@@ -29,6 +32,30 @@ const Project = ({ project }) => {
 					className={styles.image}
 					priority
 				/>
+
+				<section className={styles.links}>
+					<div className={styles.linksContent}>
+						{project.link && (
+							<a
+								href={project.link}
+								target='_blank'
+								rel='noreferrer'
+								className={styles.linksButton}
+							>
+								Visitar web
+							</a>
+						)}
+
+						{project.url && (
+							<Link
+								href={`/projects/${project.url}`}
+								className={styles.linksButton}
+							>
+								Saber más
+							</Link>
+						)}
+					</div>
+				</section>
 			</div>
 
 			<div className={styles.content}>
@@ -48,7 +75,7 @@ const Project = ({ project }) => {
 					))}
 				</footer>
 			</div>
-		</Link>
+		</figure>
 	)
 }
 

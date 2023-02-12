@@ -6,8 +6,8 @@ import styles from './ListOfProjects.module.css'
 const ListOfProjects = () => {
 	return (
 		<div className={styles.container}>
-			{projects.map((item) => (
-				<Project project={item} key={`project-${item.title}`} />
+			{projects.map((item, i) => (
+				<Project project={item} key={`project-${item.title}`} delay={i} />
 			))}
 		</div>
 	)

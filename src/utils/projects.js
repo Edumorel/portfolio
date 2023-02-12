@@ -1,32 +1,24 @@
 import react from '../../public/skills/react.png'
 import node from '../../public/skills/node.png'
+import webpack from '../../public/skills/webpack.png'
+import js from '../../public/skills/js.png'
 
 export const projects = [
 	{
-		title: 'Parceland',
-		image: 'parceland/parceland_2.jpeg',
-		description: `Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet anur consectetur.  dolor sit ametadasda adasdsa
-		`,
-		tech: [react],
-		url: 'parceland',
-		color: '131, 255, 128',
-	},
-	{
 		title: 'Angelas Questions',
 		image: 'angelasquestions/angelas_1.png',
-		description: `Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet anur consectetur.  dolor sit ametadasda adasdsa
-		`,
+		description: `Una página en la que podías comprar tus entradas para una obra. Respondías unas preguntas y si contestabas bien te enviaban un código para comprarlas.`,
+		link: 'https://angelasquestions.co.uk/',
 		tech: [react, node],
-		url: 'angelas-questions',
 		color: '255, 255, 255',
 	},
 	{
-		title: 'Reproductor de música',
-		image: 'parceland/parceland_2.jpeg',
-		description: `Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet anur consectetur.  dolor sit ametadasda adasdsa
+		title: 'Muddled Marauders',
+		image: 'muddledmarauders/cover.png',
+		description: `Una web informativa que cuenta con un video interactivo y algunas páginas con efectos de glitch
 		`,
-		tech: [react, node],
-		url: 'reroductor-musica',
-		color: '3, 141, 0',
+		tech: [webpack, js],
+		link: 'https://muddledmarauders.vercel.app/',
+		color: '210, 63, 138',
 	},
 ]

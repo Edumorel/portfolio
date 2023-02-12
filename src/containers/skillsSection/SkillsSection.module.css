@@ -13,11 +13,13 @@
 	grid-template-columns: 100%;
 	grid-template-rows: 1fr 60%;
 	gap: 80px;
+	margin: 30px 0 0 0;
 }
 
 @media screen and (min-width: 1000px) {
 	.skills {
-		grid-template-columns: 50% 50%;
+		grid-template-columns: 50% 40%;
 		grid-template-rows: 1fr;
+		margin: 0;
 	}
 }
