@@ -5,7 +5,7 @@ const ProjectsSection = () => {
 		<section className={`section`} style={{ paddingBottom: 100 }}>
 			<div className={`section-content`}>
 				<header>
-					<h3 className={`section-title`}>Proyectos</h3>
+					<h3 className={`section-title`}>Projects</h3>
 				</header>
 
 				<ListOfProjects />

@@ -7,7 +7,7 @@ export const projects = [
 	{
 		title: 'Angelas Questions',
 		image: 'angelasquestions/angelas_1.png',
-		description: `Una página en la que podías comprar tus entradas para una obra. Respondías unas preguntas y si contestabas bien te enviaban un código para comprarlas.`,
+		description: `A page where you could buy your tickets for a play. You answer some questions and if you answered correctly they sent you a code to buy them.`,
 		link: 'https://angelasquestions.co.uk/',
 		tech: [react, node],
 		color: '255, 255, 255',
@@ -15,7 +15,7 @@ export const projects = [
 	{
 		title: 'Muddled Marauders',
 		image: 'muddledmarauders/cover.png',
-		description: `Una web informativa que cuenta con un video interactivo y algunas páginas con efectos de glitch
+		description: `An informative website that has an interactive video and some pages with glitch effects
 		`,
 		tech: [webpack, js],
 		link: 'https://muddledmarauders.vercel.app/',

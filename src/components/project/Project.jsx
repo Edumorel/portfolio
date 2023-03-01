@@ -42,7 +42,7 @@ const Project = ({ project, delay }) => {
 								rel='noreferrer'
 								className={styles.linksButton}
 							>
-								Visitar web
+								Visit web
 							</a>
 						)}
 
@@ -51,7 +51,7 @@ const Project = ({ project, delay }) => {
 								href={`/projects/${project.url}`}
 								className={styles.linksButton}
 							>
-								Saber más
+								Know more
 							</Link>
 						)}
 					</div>

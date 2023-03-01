@@ -7,7 +7,7 @@ import styles from './Footer.module.css'
 const Footer = () => {
 	return (
 		<footer className={styles.footer}>
-			<h3 className={styles.title}>Contactame</h3>
+			<h3 className={styles.title}>Contact me</h3>
 			<section className={styles.socialContainer}>
 				<svg width={0} height={0}>
 					<defs>

@@ -25,9 +25,9 @@ const Presentation = () => {
 						<span className={styles.capital}>C</span>aparrós
 					</h1>
 					<h2 className={styles.subtitle}>
-						Soy un programador fullstack autodidacta con una gran pasión por la
-						programación. He tenido la oportunidad de trabajar en diferentes
-						proyectos tanto personales como para clientes.
+						I am a self-taught fullstack developer with a great passion for
+						programming. I have had the opportunity to work in different
+						projects both personal and for clients.
 					</h2>
 				</section>
 

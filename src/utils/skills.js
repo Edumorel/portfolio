@@ -2,58 +2,61 @@ export const skillsData = [
 	{
 		name: 'HTML',
 		image: 'HTML.png',
-		description: `Gracias a saber HTML puedo hacer que mis webs tengan una estructura y un SEO correcto para su posicionamiento.`,
+		description: `
+		Thanks to knowing HTML I can make my websites have a structure and a correct SEO for their positioning.`,
 		color: '#FF5800',
 	},
 	{
 		name: 'CSS',
 		image: 'css.png',
 		description: `
-		Me gusta que mis proyectos tengan mi propio estilo, y css me ayuda con eso, permitiéndome darle estilo a los elementos que añada y poder crear efectos visuales increíbles para los usuarios.
+		I like my projects to have my own style, and css helps me with that, allowing me to style the elements I add and create amazing visual effects for users.
 		`,
 		color: '#2965F1',
 	},
 	{
 		name: 'JavaScript',
 		image: 'js.png',
-		description: `JavaScript es mi lenguaje principal, es el que más uso y el que mejor domino. Durante los últimos años he podido utilizarlo en diferentes proyectos con diferentes tecnologías, como React o Node.js`,
+		description: `JavaScript is my main language, it is the one I use the most and the one I master the best. During the last years I have been able to use it in different projects with different technologies, like React or Node.js`,
 		color: '#F7DF1E',
 	},
 	{
 		name: 'React',
 		image: 'react.png',
-		description: `Gracias a React he podido entender JavaScript y el mundo del desarrollo web de forma distinta, lo que me ha ayudado a mejorar en otros aspectos de mi carrera. Sin duda mi librería de JavaScript favorita.`,
+		description: `Thanks to React I have been able to understand JavaScript and the world of web development in a different way, which has helped me to improve in other aspects of my career. Definitely my favorite JavaScript library.`,
 		color: '#61DAFB',
 	},
 	{
 		name: 'NodeJS',
 		image: 'node.png',
-		description: `Si quieres crear aplicaciones el backend es una parte importante, y como me gusta tanto JavaScript Node es mi herramienta para hacerlo. Gracias a él puedo crear servidores que complementen mis aplicaciones con inicios de sesión, APIs, bases de datos y un sinfín de cosas.`,
+		description: `If you want to create applications, the backend is an important part, and since I like JavaScript so much, Node is my tool to do it. Thanks to it I can create servers that complement my applications with logins, APIs, databases and endless things.`,
 		color: '#539E43',
 	},
 	{
 		name: 'Git',
 		image: 'git.png',
-		description: `He tenido la oportunidad de trabajar con otros desarrolladores en el mismo proyecto, y git lo ha hecho mucho más fácil. 
-		Además de permitirme de forma sencilla guardar el progreso de mi app y subirlo a algún servidor.`,
+		description: `I've had the opportunity to work with other developers on the same project, and git has made it so much easier.
+		In addition to allowing me to easily save the progress of my app and upload it to a server.`,
 		color: '#F05033',
 	},
 	{
 		name: 'Next.js',
 		image: 'nextjs.png',
-		description: `React me parece una tecnología increíble, pero con Next podemos llevarlo a otro nivel que solucione sus principales problemas. Next se ha convertido en mi framework principal, ya que me permite crear aplicaciones con React, pero con las ventajas que da el Server Side Render.`,
+		description: `React seems like an incredible technology to me, but with Next we can take it to another level that solves its main problems. Next has become my main framework, since it allows me to create applications with React, but with the advantages of the Server Side Render.`,
 		color: '#fff',
 	},
 	{
 		name: 'Figma',
 		image: 'figma.png',
-		description: `Adoro crear aplicaciones, y es normal que en muchas ocasiones tenga de diseñarlas. Figma se ha convertido en una herramienta en la que me siento muy cómodo transformando mis ideas en diseños únicos.`,
+		description: `
+		I love creating applications, and it is normal that on many times I have to design them. Figma has become a tool where I feel very comfortable transforming my ideas into unique designs.`,
 		color: '#fff',
 	},
 	{
 		name: 'Webpack',
 		image: 'webpack.png',
-		description: `Hoy en día lo más importante es que la web cargue rápido y que el navegador intérprete bien tu código. Gracias a Webpack podemos coger código bonito para los programadores y transformarlo en el código ideal para el navegador.`,
+		description: `
+		Today the most important thing is that the web loads quickly and that the browser interprets your code well. Thanks to Webpack we can take beautiful code for programmers and transform it into the ideal code for the browser.`,
 		color: '#8ED5FA',
 	},
 ]
